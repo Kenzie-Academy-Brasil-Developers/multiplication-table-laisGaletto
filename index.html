@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiplication Table</title>
+    </head>
+
+    <body>
+        <h1>Multiplication Table</h1>
+        <script>
+// Substitua "nomeDaSuaFuncao" por um nome mais apropriado
+// escreve a coluna inicial
+        function tabuada(n) {
+    
+            let a = 0;
+            let b = [];
+            let d = [];
+            let e = 0;
+        for (a = 0; a <= n; a++) {
+        for(let f = 0; f <= n; f++){
+        d.push(e*f);
+        }
+            b[a] = d;
+            d = [];
+            e++;
+    }
+    return console.table(b);
+    // TODO: escrever dois loops aninhados para desenhar o array bidimencional e monstar o restante da tabela no console.
+}
+        </script>
+    </body>
+</html>
